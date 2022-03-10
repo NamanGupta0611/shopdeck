@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import styled from 'styled-components';
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+
+import Login from './Components/Login/Login';
+import Signup from './Components/Signup/Signup';
+import Payment from './pages/Payment/payment';
+import Cart from './pages/cart/cart';
+import Home from './pages/Homepage/Home';
+import Details from './pages/Details/Details';
+
+const StyledButton = styled-Component
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div> 
+      <Router>
+        <Routes>
+           <Route path="/"  element={<Home />} />
+           <Route path="/payment"  element={<Payment />} />
+           <Route path="/login"  element={<Login />} />
+           <Route path= "/signup"  element= {<Signup />} />
+           <Route path="/cart" element={<Cart />} />
+           <Route path="/product" element={<Details />} />
+       </Routes>
+      </Router> 
+   </div>
   );
 }
 
