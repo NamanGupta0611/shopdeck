@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 602e2520c4580202509b497e769e2c807b174973
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,15 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-<<<<<<< HEAD
-=======
-
-.app-wrapper {
-  background-color: #fff;
-  min-width: 350px;
-  min-height: 650px;
-  padding: 30px;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
->>>>>>> 602e2520c4580202509b497e769e2c807b174973

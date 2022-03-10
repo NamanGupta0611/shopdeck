@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 import Login from './Components/Login/Login';
@@ -9,7 +9,7 @@ import Cart from './pages/cart/cart';
 import Home from './pages/Homepage/Home';
 import Details from './pages/Details/Details';
 
-const StyledButton = styled-Component
+// const StyledButton = styled-Component
 
 function App() {
   return (
