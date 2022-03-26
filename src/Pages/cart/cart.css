@@ -1,0 +1,66 @@
+.cart{
+    background-color: #C8F2EF;
+}
+
+.chead {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+
+input[type= button]{
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: white;
+    margin-right: 8%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: medium;
+    width: min-content;
+}
+
+.prodimage {
+    margin-left: 5%;
+    height: min-content;
+    width: min-content;
+    background-color: white;
+    border: 3px solid;
+    padding: 10px;
+}
+
+.bttn{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45%;    
+    margin-top: -2%;
+}
+
+.pdetails {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -15%;
+    font-size: x-large;
+}
+
+.ads {
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.bimg{
+    border: 2px solid;
+    margin-right: 20%;
+    border-radius: 20px;
+}
+
+button input:hover{
+    background-color: black;
+}
