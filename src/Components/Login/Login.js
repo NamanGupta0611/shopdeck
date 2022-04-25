@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import './Login.css';
 import { ReactDOM } from "react";
 import logo from './logo.png'; // Tell webpack this JS file uses this image
-import { Link } from "react-router-dom";
 
 console.log(logo); // /logo.84287d09.png
 
@@ -48,12 +47,8 @@ const Login = () =>{
             <div className="Button">
               <button classname="submit" onclick={handleFormSubmit}>Log in</button>
             </div>
-            <div>
-              <Link to='/Signup'><h9>Forgot your password</h9></Link>
-            </div>
-            <div>
-              <Link to='/Signup'><h9>Signup</h9></Link>
-            </div>
+            <div><h9>Forgot your password</h9></div>
+            <div><h9>Signup</h9></div>
             <div className="label">
               <label>Or</label>
             </div>
